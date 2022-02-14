@@ -3,7 +3,7 @@ const right= document.querySelector('.right')
 const left= document.querySelector('.left')
 const up= document.querySelector('.up')
 const down= document.querySelector('.down')
-const slideLength= right.querySelectorAll('div').length
+const slideLength= right.querySelectorAll('div').length  //basically no.of slides
 
 let activeSlideIndex=0
 
