@@ -41,6 +41,7 @@ button{
     border-radius: 5px ;
     border-color: aliceblue;
     width: 5rem;
+    background-color: aquamarine;
 }
 /*Color Picker Section*/
 .main{
