@@ -43,8 +43,23 @@ button{
     width: 5rem;
     background-color: aquamarine;
 }
+
+
 /*Color Picker Section*/
 .main{
+    box-sizing: border-box;
     height: 70vh;
     background-color: rgb(41, 38, 38);
+    display: grid;
+    padding: 10px;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+}
+
+.box{
+    height: 200px;
+    width:200px;
+    background-color: aqua;
+    border-radius: 10px;
+    margin: 25px;
 }
