@@ -3,11 +3,11 @@ const right= document.querySelector('.right')
 const left= document.querySelector('.left')
 const up= document.querySelector('.up')
 const down= document.querySelector('.down')
-const slideLength= right.querySelectorAll('div').length  //basically no.of slides
+const slideLength= right.querySelectorAll('div').length  //basically no.of slides   here=4
 
 let activeSlideIndex=0
 
-left.style.top=`-${(slideLength-1)*100}vh`  //shifts left up by 300vh
+left.style.top=`-${(slideLength-1)*100}vh`  //shifts left up by 300vh   matching the colour and pic
 
 up.addEventListener('click',()=>changeSlide('up'))
 down.addEventListener('click',()=>changeSlide('down'))
