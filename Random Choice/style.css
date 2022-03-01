@@ -28,7 +28,7 @@ h3{
 }
 
 #textarea{
-    border: none;
+    border: none; 
     display: block;
     width: 100%;
     padding: 10px;
@@ -50,4 +50,9 @@ h3{
     font-size: 12px;
     font-weight: bold;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.tag.highlight{
+    background-color: rgb(10, 10, 155);
 }
