@@ -92,6 +92,6 @@ body{
 }
 
 /*this class will remove the element*/
-.userlist li .hide{
+.userlist li.hide{
     display: none;
 }
